@@ -12,7 +12,6 @@ const Product = () => {
 
   const [quantity, setQuantity] = useState(0)
   const [confirm, setConfirm] = useState(false)
-  const [filtProd, setFiltProd] = useState([])
 
   useEffect(() => {
     dispatch(setInfoProductThunk(id));
