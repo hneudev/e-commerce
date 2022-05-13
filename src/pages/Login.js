@@ -26,7 +26,7 @@ const Login = () => {
                     navigate('/shop')
                 })
         }
-    }, [userObj])
+    }, [userObj, navigate])
 
 
     return (
